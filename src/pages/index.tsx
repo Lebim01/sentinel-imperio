@@ -6,6 +6,7 @@ import ImperioEssentials from "@/components/landing/ImperioEssentials";
 
 const cinzel = Cinzel({ subsets: ["latin"], variable: "--font-cinzel" });
 const monserrat = Montserrat({
+  subsets: ["latin"],
   variable: "--font-montserrat",
   weight: ["400", "600"],
 });
